@@ -152,7 +152,7 @@ Contact.all.eager_load(:countries).where { __countries { _name.like("%tan%") } }
 Contact.all.group(:gender).group_avg(:age, PG::Numeric)
 ```
 
-Much more about the query DSL can be found on the wiki [[page|Query-DSL]]
+Much more about the query DSL can be found on the wiki [Query DSL](https://imdrasil.github.io/jennifer.cr/docs/query_dsl)
 
 ### Important restrictions
 

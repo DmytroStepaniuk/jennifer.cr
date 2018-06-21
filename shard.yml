@@ -14,7 +14,7 @@ development_dependencies:
     version: "~> 0.4"
   pg:
     github: greenbigfrog/crystal-pg
-    branch: latest_crystal
+    branch: latest-crystal
   sqlite3:
     github: crystal-lang/crystal-sqlite3
   factory:

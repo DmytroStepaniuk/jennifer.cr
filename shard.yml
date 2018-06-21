@@ -13,8 +13,8 @@ development_dependencies:
     github: crystal-lang/crystal-mysql
     version: "~> 0.4"
   pg:
-    github: will/crystal-pg
-    version: "~> 0.14.1"
+    github: greenbigfrog/crystal-pg
+    branch: latest_crystal
   sqlite3:
     github: crystal-lang/crystal-sqlite3
   factory:
